@@ -15,10 +15,10 @@ LED: negligible
 2 PCBs: About a pound?
 Keyboard switch: like 50p
 3D printed case: I can probably get free printing off Imperial somehow
-2x XLR4/5 connector: £1.16 (https://cpc.farnell.com/cliff-electronic-components/fc61945/xlr-plug-4p-p-mount-metal-black/dp/CN27138) + £2.60 (https://cpc.farnell.com/pro-signal/psg08607/socket-xlr-chassis-4p/dp/CN21151) = 3.76£
+2x GX12-4 connectors: (https://www.digikey.co.uk/en/products/detail/olimex-ltd/CONNECTOR-GX12-4/19204416) £1.52 each => £3.04
 ATTiny something or other: 50p for a 412 on DigiKey
 RS485 tx/rx (This weird thing, the HW-519 apparently: https://www.aliexpress.com/w/wholesale-ttl-rs485-auto-flow-control-module.html?spm=a2g0o.productlist.auto_suggest.2.71b541b1fdGYJb): also about 50p
 
-So just under £6.50 per buzzer => £52 for a set of 8
+So just under £5.50 per buzzer => £50 for a set
 
-Possibly cheaper to use GX12-4 aviation connectors? Worth a look
+2x XLR4/5 connector: £1.16 (https://cpc.farnell.com/cliff-electronic-components/fc61945/xlr-plug-4p-p-mount-metal-black/dp/CN27138) + £2.60 (https://cpc.farnell.com/pro-signal/psg08607/socket-xlr-chassis-4p/dp/CN21151) = 3.76£

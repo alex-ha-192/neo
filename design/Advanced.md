@@ -11,4 +11,6 @@ I think screw terminals between buzzers is probably the best way to run it, we c
 
 So assuming we use [[The Perfect Buzzer]], we end up with a BoM cost of just over £50 for buzzers. The control unit honestly is much the same as the [[Basic]] control unit, and possibly simpler because it has less connectors, so let's just say £25
 
-Then we need 8 ~2/3ft XLR4 male/female cables
+Then we need 8 ~2/3ft GX12-4 male/female cables => £4 each (https://www.revcam.uk/cab048-4-pin-extension-cable-for-rear-view-camera-1m-3-3ft.html) so £32
+
+Let's total that to £50 + £25 + £32 + a little bit for like screw mounts and stuff => £115ish
