@@ -1,4 +1,4 @@
-# neo
+# Neo
 The Neo buzzer system is an open-source, reliable, and hopefully affordable line of quiz lockout buzzers. It also does not currently exist. This is a rather significant flaw, though one I'm working to repair.
 
 ## Progress (Lite v1)
