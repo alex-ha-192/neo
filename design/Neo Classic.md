@@ -19,4 +19,4 @@
 
 # Parts List
 - DMX/XLR5: https://cpc.farnell.com/cliff-electronic-components/fc61955/xlr-plug-5-pole-panel-mount-black/dp/CN22651, https://cpc.farnell.com/cliff-electronic-components/fc61950/xlr-socket-5-pole-p-mount-latch/dp/CN22650, https://cpc.farnell.com/pulse/pls00408/lead-xlr-dmx-5p-2pair-0-5m/dp/AV22551
-- RS485 board: https://www.aliexpress.com/w/wholesale-ttl-rs485-auto-flow-control-module.html?spm=a2g0o.productlist.auto_suggest.2.71b541b1fdGYJb
+- RS485 board: https://www.aliexpress.com/item/1005009552330016.html
