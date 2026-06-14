@@ -22,3 +22,4 @@
 - RS485 board: https://www.aliexpress.com/item/1005009552330016.html
 - Gateron Jupiter Red keyboard switches: https://mechboards.co.uk/products/gateron-jupiter-red-switches
 - MX/Kailh hotswap sockets: https://mechboards.co.uk/products/kailh-hotswap-sockets
+- Shift register for LEDs: https://www.digikey.co.uk/en/products/detail/texas-instruments/SN74HC595DR/562919
