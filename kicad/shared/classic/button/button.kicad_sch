@@ -1501,6 +1501,12 @@
 		(color 0 0 0 0)
 		(uuid "480f60fb-fc56-4973-a657-3074cfbd47ce")
 	)
+	(junction
+		(at 78.74 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e874823a-71e5-44e6-a524-a9c64d14c947")
+	)
 	(wire
 		(pts
 			(xy 21.59 54.61) (xy 39.37 54.61)
@@ -1533,6 +1539,26 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 82.55) (xy 78.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "457f1958-1e4b-4bbb-8e91-40d716249882")
+	)
+	(wire
+		(pts
+			(xy 78.74 80.01) (xy 78.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b32c1c-82c0-4bca-9149-010a566ef104")
+	)
+	(wire
+		(pts
 			(xy 35.56 58.42) (xy 39.37 58.42)
 		)
 		(stroke
@@ -1552,7 +1578,7 @@
 		(uuid "da7b6760-d090-4bab-8fcd-cb90da3fd507")
 	)
 	(label "SW_OUT"
-		(at 78.74 80.01 270)
+		(at 76.2 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1644,6 +1670,84 @@
 			(project "button"
 				(path "/9bcb4978-1926-4e41-8c2f-efd6bcbfb6f8"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3098d3b0-705d-4366-834d-4a2f76be9965")
+		(property "Reference" "#PWR06"
+			(at 78.74 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "937a7e1d-3333-42fd-bb86-da08a19c9753")
+		)
+		(instances
+			(project "button"
+				(path "/9bcb4978-1926-4e41-8c2f-efd6bcbfb6f8"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1976,6 +2080,88 @@
 			(project "button"
 				(path "/9bcb4978-1926-4e41-8c2f-efd6bcbfb6f8"
 					(reference "MX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9112dcae-a44c-4e3a-acc1-81a9b56f80fd")
+		(property "Reference" "R3"
+			(at 81.28 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 81.28 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 76.962 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a65f403-6183-48cc-a782-0cca24e5621b")
+		)
+		(pin "2"
+			(uuid "2c8bac11-6f9f-447c-8495-8eed4f48319b")
+		)
+		(instances
+			(project "button"
+				(path "/9bcb4978-1926-4e41-8c2f-efd6bcbfb6f8"
+					(reference "R3")
 					(unit 1)
 				)
 			)
