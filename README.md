@@ -21,12 +21,28 @@ The Neo buzzer system is an open-source, hopefully reliable, and hopefully affor
 - [ ] Real-world testing
 - [ ] Release
 
-## PCB Designs
+## Footprints
+- [ ] XLR5 Male
+- [ ] XLR5 Female
+- [ ] XLR3 Male
+- [ ] XLR3 Female
+
+## PCB Schematics
+- [ ] Main buzzer board - Classic
+- [ ] Buzzer - Lite
+- [ ] Main control board - Classic
+- [x] LED board - Classic
+- [ ] Control board - Lite
+- [x] Button and LED assembly - Classic
+- [ ] Male connector assembly - Classic
+- [ ] Female connector assembly - Classic
+
+## PCB Routing
 - [ ] Main buzzer board - Classic
 - [ ] Buzzer - Lite
 - [ ] Main control board - Classic
 - [ ] LED board - Classic
 - [ ] Control board - Lite
-- [x] Button and LED assembly - Classic
+- [ ] Button and LED assembly - Classic
 - [ ] Male connector assembly - Classic
 - [ ] Female connector assembly - Classic
