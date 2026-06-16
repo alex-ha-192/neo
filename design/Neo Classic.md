@@ -23,5 +23,5 @@
 - Gateron Jupiter Red keyboard switches: https://mechboards.co.uk/products/gateron-jupiter-red-switches
 - MX/Kailh hotswap sockets: https://mechboards.co.uk/products/kailh-hotswap-sockets
 - Shift register for LEDs: https://www.digikey.co.uk/en/products/detail/texas-instruments/SN74HC595DR/562919
-- STM32: https://www.digikey.co.uk/en/products/detail/stmicroelectronics/STM32U031C8T6/22334942
+- STM32: https://www.digikey.co.uk/en/products/detail/stmicroelectronics/STM32C552CET6/29220413
 - 5V to 3V3 regulator: https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1117CH2-3.3TRG1?qs=lQAVKuKFhkLc7jCxso2G3w%3D%3D
