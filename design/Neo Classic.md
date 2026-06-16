@@ -1,5 +1,5 @@
 # Control unit
-- Based around either a Raspberry Pi Pico or an ESP32
+- Based around STM32
 - Features a RESET button and 4 LEDs for each team
 - One DMX/XLR5 port on each side for buzzer daisy chain
 
@@ -23,3 +23,5 @@
 - Gateron Jupiter Red keyboard switches: https://mechboards.co.uk/products/gateron-jupiter-red-switches
 - MX/Kailh hotswap sockets: https://mechboards.co.uk/products/kailh-hotswap-sockets
 - Shift register for LEDs: https://www.digikey.co.uk/en/products/detail/texas-instruments/SN74HC595DR/562919
+- STM32: https://www.digikey.co.uk/en/products/detail/stmicroelectronics/STM32U031C8T6/22334942
+- 5V to 3V3 regulator: https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1117CH2-3.3TRG1?qs=lQAVKuKFhkLc7jCxso2G3w%3D%3D
