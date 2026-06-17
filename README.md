@@ -64,4 +64,4 @@ The Neo buzzer system is an open-source, hopefully reliable, and hopefully affor
 - [ ] Female connector assembly - Lite
 
 ## Pricing
-I'm trying to be cost-conscious while designing these buzzers, but I'm not planning on imminently selling any or distributing them beyond Imperial until they're both finished and well-tested. If you need a buzzer set now, I'll point you to buying a set of [Kitsunes](https://github.com/Amekyras/kitsune) from [Aisling Skeet](https://github.com/Amekyras), they're a solid set of buzzers and they've been tested in quite a few competitive events.
+I'm trying to be cost-conscious while designing these buzzers, but I'm not planning on imminently selling any or distributing them beyond Imperial until they're both finished and well-tested. If you need a buzzer set now, I'll point you to buying a [Kitsune system](https://github.com/Amekyras/kitsune) from [Aisling Skeet](https://github.com/Amekyras), they're a solid set of buzzers and they've been tested in quite a few competitive events.
