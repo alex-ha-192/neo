@@ -1,7 +1,8 @@
 # Neo
 The Neo buzzer system is an open-source, hopefully reliable, and hopefully affordable line of quiz lockout buzzers. It also does not currently exist. This is a rather significant flaw, though one I'm working to repair.
 
-## Progress (Classic v1)
+## Progress
+### Classic v1
 - [x] Finalise design concepts
 - [ ] Prototype
 - [ ] Source parts
@@ -11,7 +12,7 @@ The Neo buzzer system is an open-source, hopefully reliable, and hopefully affor
 - [ ] Real-world testing
 - [ ] Release
 
-## Progress (Lite v1)
+### Lite v1
 - [x] Finalise design concepts
 - [ ] Prototype
 - [ ] Source parts
@@ -21,14 +22,14 @@ The Neo buzzer system is an open-source, hopefully reliable, and hopefully affor
 - [ ] Real-world testing
 - [ ] Release
 
-## Footprints
+### Footprints
 - [ ] XLR5 Male (has now arrived at my house)
 - [ ] XLR5 Female (has now arrived at my house)
 - [ ] XLR3 Male
 - [ ] XLR3 Female
 - [ ] HW-0519
 
-## PCB Schematics
+### PCB Schematics
 - [ ] Main buzzer board - Classic
 - [x] Main control board - Classic
 - [x] LED board - Classic
@@ -40,12 +41,24 @@ The Neo buzzer system is an open-source, hopefully reliable, and hopefully affor
 - [ ] Male connector assembly - Lite
 - [ ] Female connector assembly - Lite
 
-## PCB Routing
+### PCB Routing
 - [ ] Main buzzer board - Classic
-- [ ] Buzzer - Lite
 - [ ] Main control board - Classic
 - [ ] LED board - Classic
-- [ ] Control board - Lite
-- [ ] Button and LED assembly - Classic
+- [ ] Button/LED assembly - Classic
 - [ ] Male connector assembly - Classic
 - [ ] Female connector assembly - Classic
+- [ ] Buzzer - Lite
+- [ ] Control board - Lite
+- [ ] Male connector assembly - Lite
+- [ ] Female connector assembly - Lite
+
+### CAD models
+- [ ] Buzzer box - Classic
+- [ ] Control unit - Classic
+- [ ] Male connector assembly - Classic
+- [ ] Female connector assembly - Classic
+- [ ] Buzzer box - Lite
+- [ ] Control unit - Lite
+- [ ] Male connector assembly - Lite
+- [ ] Female connector assembly - Lite
