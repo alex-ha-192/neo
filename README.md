@@ -30,7 +30,7 @@ The Neo buzzer system is an open-source, hopefully reliable, and hopefully affor
 - [ ] HW-0519
 
 ### PCB Schematics
-- [ ] Main buzzer board - Classic
+- [x] Main buzzer board - Classic
 - [x] Main control board - Classic
 - [x] LED board - Classic
 - [x] Button/LED assembly - Classic
