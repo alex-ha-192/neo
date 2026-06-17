@@ -1531,16 +1531,16 @@
 		(uuid "2d6d7a3c-60d6-405c-b9ef-eee881c77ab2")
 	)
 	(junction
-		(at 41.91 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3069d611-f5a7-4a6e-84da-6d10a9feb33f")
-	)
-	(junction
 		(at 33.02 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5287cac2-acfb-466e-923f-5a3272ca7117")
+	)
+	(junction
+		(at 41.91 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d516dd3-47df-4eeb-8777-870afd85fade")
 	)
 	(junction
 		(at 78.74 80.01)
@@ -1586,7 +1586,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 55.88) (xy 33.02 55.88)
+			(xy 33.02 55.88) (xy 41.91 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1603,16 +1603,6 @@
 			(type default)
 		)
 		(uuid "50385390-145e-453d-beaf-fb382f701fb2")
-	)
-	(wire
-		(pts
-			(xy 50.8 55.88) (xy 41.91 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ab22e1a-f36b-4ca2-9bc7-bff56ddb34f3")
 	)
 	(wire
 		(pts
@@ -1683,6 +1673,16 @@
 			(type default)
 		)
 		(uuid "e0e6c412-e888-42be-b35e-e33782b9a61d")
+	)
+	(wire
+		(pts
+			(xy 41.91 55.88) (xy 50.8 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b5bc5d-88ab-4298-980f-49279f7c0e41")
 	)
 	(wire
 		(pts
@@ -1892,6 +1892,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 41.91 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36095784-75ea-461d-b2c4-ce02245835d2")
+		(property "Reference" "#FLG02"
+			(at 41.91 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 41.91 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 41.91 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b2740fe-e434-4b22-865c-4cd6de42fa65")
+		)
+		(instances
+			(project "button"
+				(path "/9bcb4978-1926-4e41-8c2f-efd6bcbfb6f8"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 50.8 52.07 180)
 		(unit 1)
@@ -1903,7 +1982,7 @@
 		(dnp no)
 		(uuid "37131189-f108-4584-9013-214fff04f0ef")
 		(property "Reference" "C1"
-			(at 52.07 62.992 0)
+			(at 58.928 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1914,7 +1993,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 52.07 60.452 0)
+			(at 58.928 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2465,85 +2544,6 @@
 			(project "button"
 				(path "/9bcb4978-1926-4e41-8c2f-efd6bcbfb6f8"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 41.91 55.88 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "955d4862-12b1-4837-a1d3-41def9beea73")
-		(property "Reference" "#FLG02"
-			(at 41.91 57.785 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 40.64 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 41.91 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e0e68e5-ce85-4161-b9fa-c6dd416ddc58")
-		)
-		(instances
-			(project "button"
-				(path "/9bcb4978-1926-4e41-8c2f-efd6bcbfb6f8"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
