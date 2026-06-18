@@ -34,8 +34,8 @@ The Neo buzzer system is an open-source, hopefully reliable, and hopefully affor
 - [x] Main control board - Classic
 - [x] LED board - Classic
 - [x] Button/LED assembly - Classic
-- [ ] Male connector assembly - Classic
-- [ ] Female connector assembly - Classic
+- [x] Male connector assembly - Classic
+- [x] Female connector assembly - Classic
 - [ ] Buzzer - Lite
 - [ ] Control board - Lite
 - [ ] Male connector assembly - Lite
