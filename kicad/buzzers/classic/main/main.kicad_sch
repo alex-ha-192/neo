@@ -1702,26 +1702,6 @@
 		)
 		(uuid "2828645c-6a46-4e69-a11b-90030458f6ac")
 	)
-	(label "RS485_A"
-		(at 25.4 38.1 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e763a3a-21a6-4090-8177-78d58fdfeb9e")
-	)
-	(label "SERIAL_BB_RX"
-		(at 30.48 38.1 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4e62fa61-d4a5-4b64-a8da-fdcab7804773")
-	)
 	(label "LED_OUT"
 		(at 191.77 24.13 90)
 		(effects
@@ -1741,6 +1721,26 @@
 			(justify left bottom)
 		)
 		(uuid "a2a79e7a-4b58-4fbe-abc1-f44fa5c38b80")
+	)
+	(label "RS485_A"
+		(at 30.48 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c51e89b3-6230-4e38-bafd-5f04d718d124")
+	)
+	(label "SERIAL_BB_RX"
+		(at 25.4 38.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cfd475a2-ced3-4ae6-bf4f-8103465b1583")
 	)
 	(label "RS485_B"
 		(at 55.88 29.21 90)
