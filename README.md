@@ -23,8 +23,8 @@ The Neo buzzer system is an open-source, hopefully reliable, and hopefully affor
 - [ ] Release
 
 ### Footprints
-- [ ] XLR5 Male (has now arrived at my house)
-- [ ] XLR5 Female (has now arrived at my house)
+- [x] XLR5 Male (has now arrived at my house)
+- [x] XLR5 Female (has now arrived at my house)
 - [ ] XLR3 Male
 - [ ] XLR3 Female
 - [ ] HW-0519
