@@ -625,6 +625,324 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:ESD131-B1-W0201"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD131-B1-W0201"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS ESD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SG?WLL?2?3*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESD131-B1-W0201_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD131-B1-W0201_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "VCUT0714A-HD1-GS08:VCUT0714A-HD1-GS08"
 			(pin_names
 				(offset 1.016)
@@ -1051,16 +1369,16 @@
 		)
 	)
 	(junction
-		(at 137.16 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30cb54d1-8040-4de2-8337-91c836e1dc8d")
-	)
-	(junction
 		(at 147.32 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a4e1a77-85fa-4b3a-8af8-6a576bdb94ca")
+		(uuid "4a0a1dba-7788-4884-85b6-9533372ffe2e")
+	)
+	(junction
+		(at 137.16 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94793d7a-e3bf-4e82-89be-f09fe33935e3")
 	)
 	(junction
 		(at 144.78 78.74)
@@ -1068,9 +1386,15 @@
 		(color 0 0 0 0)
 		(uuid "cc30ec5c-f35b-40e0-aacd-a098d1c1da14")
 	)
+	(junction
+		(at 129.54 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9be5442-9a59-4d65-86a6-29429033b4bd")
+	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 127 83.82)
+			(xy 111.76 73.66) (xy 111.76 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1080,13 +1404,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 82.55) (xy 134.62 83.82)
+			(xy 144.78 102.87) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30b35dc9-8db2-48e6-ba8b-61528acb4bc7")
+		(uuid "478d5180-337c-4825-a6c6-d63f039acd4e")
 	)
 	(wire
 		(pts
@@ -1100,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 73.66) (xy 127 73.66)
+			(xy 129.54 73.66) (xy 111.76 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1116,21 +1440,31 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "57cb51fb-14d9-4e85-81f3-80f68e092e55")
+		(uuid "57288e23-3d00-4f82-8af3-c64047287230")
 	)
 	(wire
 		(pts
-			(xy 129.54 82.55) (xy 134.62 82.55)
+			(xy 116.84 78.74) (xy 123.19 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6945bd8a-3cdb-4533-98b6-7dafcb97eeba")
+		(uuid "57cb51fb-14d9-4e85-81f3-80f68e092e55")
 	)
 	(wire
 		(pts
-			(xy 139.7 82.55) (xy 139.7 83.82)
+			(xy 134.62 83.82) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d4cbf58-70e8-4372-8d1a-068dd4da369b")
+	)
+	(wire
+		(pts
+			(xy 139.7 82.55) (xy 139.7 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1140,7 +1474,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 76.2) (xy 129.54 82.55)
+			(xy 129.54 76.2) (xy 129.54 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1150,13 +1484,33 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 83.82) (xy 147.32 83.82)
+			(xy 134.62 97.79) (xy 134.62 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86602e6d-f52a-4486-811b-f19d5aa10e33")
+	)
+	(wire
+		(pts
+			(xy 142.24 102.87) (xy 144.78 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8f734a6a-2f45-4fd7-996d-a50b6e38893c")
+	)
+	(wire
+		(pts
+			(xy 144.78 83.82) (xy 147.32 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93cb2f21-a3e4-437d-9346-e23d65079ee3")
 	)
 	(wire
 		(pts
@@ -1200,6 +1554,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 78.74) (xy 123.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc7a219-4901-487f-878e-09719c6f7eee")
+	)
+	(wire
+		(pts
 			(xy 144.78 78.74) (xy 144.78 82.55)
 		)
 		(stroke
@@ -1210,7 +1574,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 137.16 83.82)
+			(xy 137.16 81.28) (xy 137.16 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1220,13 +1584,33 @@
 	)
 	(wire
 		(pts
-			(xy 127 83.82) (xy 132.08 83.82)
+			(xy 111.76 102.87) (xy 132.08 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c4cea32f-50d0-4cee-9dd2-687cd0180c7f")
+	)
+	(wire
+		(pts
+			(xy 134.62 90.17) (xy 134.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c3f6de-b6e0-4ee1-a17e-8fe1529816ea")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.82) (xy 129.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbceccbe-f070-43e6-bd7c-82503a1ebe7d")
 	)
 	(symbol
 		(lib_id "VCUT0714A-HD1-GS08:VCUT0714A-HD1-GS08")
@@ -1349,7 +1733,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 96.52 0)
+		(at 116.84 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1360,7 +1744,7 @@
 		(fields_autoplaced yes)
 		(uuid "42cd11ef-c5eb-446a-938e-dca2b4fdc4a3")
 		(property "Reference" "#PWR02"
-			(at 123.19 102.87 0)
+			(at 116.84 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1371,7 +1755,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 101.6 0)
+			(at 116.84 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1381,7 +1765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 96.52 0)
+			(at 116.84 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1392,7 +1776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 96.52 0)
+			(at 116.84 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1403,7 +1787,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 96.52 0)
+			(at 116.84 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1504,8 +1888,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 137.16 88.9 270)
+		(lib_id "power:GND")
+		(at 129.54 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1513,9 +1897,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ceaf3d7a-195e-406b-b4e1-25a97413dd0d")
-		(property "Reference" "J2"
-			(at 137.16 92.71 90)
+		(fields_autoplaced yes)
+		(uuid "61dcb109-a3bc-4f0e-9324-3c77eaf5caf9")
+		(property "Reference" "#PWR04"
+			(at 129.54 99.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1524,8 +1910,9 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x05"
-			(at 137.16 95.25 90)
+		(property "Value" "GND"
+			(at 129.54 97.79 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1535,7 +1922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 88.9 0)
+			(at 129.54 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1546,7 +1933,164 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 88.9 0)
+			(at 129.54 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53aa30bc-37da-4ba9-abfd-33a439e7e42c")
+		)
+		(instances
+			(project "male"
+				(path "/e5086e09-eaef-4974-977c-0e200593cf81"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD131-B1-W0201")
+		(at 129.54 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8960735e-8863-4e9b-a9b7-469eaf7f7117")
+		(property "Reference" "D3"
+			(at 125.222 89.408 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD150-B1-W0201"
+			(at 120.142 90.678 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+			(at 129.54 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
+			(at 129.54 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
+			(at 129.54 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b9727a66-af26-4075-ad49-d27ed3f054bc")
+		)
+		(pin "1"
+			(uuid "2be70377-c82b-4e9f-ad6c-3b5724e39958")
+		)
+		(instances
+			(project "male"
+				(path "/e5086e09-eaef-4974-977c-0e200593cf81"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 137.16 107.95 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ceaf3d7a-195e-406b-b4e1-25a97413dd0d")
+		(property "Reference" "J2"
+			(at 137.16 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 137.16 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1557,7 +2101,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 137.16 88.9 0)
+			(at 137.16 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1593,7 +2137,7 @@
 	)
 	(symbol
 		(lib_id "VCUT0714A-HD1-GS08:VCUT0714A-HD1-GS08")
-		(at 123.19 88.9 90)
+		(at 116.84 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1603,7 +2147,7 @@
 		(dnp no)
 		(uuid "cffa4523-a8fe-4baa-b69b-0be05edfd051")
 		(property "Reference" "D1"
-			(at 120.65 87.6299 90)
+			(at 114.3 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1614,7 +2158,7 @@
 			)
 		)
 		(property "Value" "VCUT0714A-HD1-GS08"
-			(at 120.65 90.1699 90)
+			(at 114.3 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1625,7 +2169,7 @@
 			)
 		)
 		(property "Footprint" "VCUT0714A-HD1-GS08:DIO_VCUT0714A-HD1-GS08"
-			(at 123.19 88.9 0)
+			(at 116.84 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1637,7 +2181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 88.9 0)
+			(at 116.84 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1648,7 +2192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 88.9 0)
+			(at 116.84 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1659,7 +2203,7 @@
 			)
 		)
 		(property "PARTREV" "2.3"
-			(at 123.19 88.9 0)
+			(at 116.84 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1671,7 +2215,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 123.19 88.9 0)
+			(at 116.84 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1683,7 +2227,7 @@
 			)
 		)
 		(property "MANUFACTURER" "VISHAY"
-			(at 123.19 88.9 0)
+			(at 116.84 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1793,6 +2337,87 @@
 			(project "male"
 				(path "/e5086e09-eaef-4974-977c-0e200593cf81"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5b2f6d9-1c4d-439d-848b-18b2b0d6a5f0")
+		(property "Reference" "R1"
+			(at 130.81 96.012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 130.302 98.044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.842 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "02a20143-ef16-45bf-ba54-54617bce0d50")
+		)
+		(pin "1"
+			(uuid "ddfd92c9-5441-4173-b6eb-9ab4584f6c31")
+		)
+		(instances
+			(project "male"
+				(path "/e5086e09-eaef-4974-977c-0e200593cf81"
+					(reference "R1")
 					(unit 1)
 				)
 			)
