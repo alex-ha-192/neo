@@ -1375,6 +1375,12 @@
 		(uuid "4a0a1dba-7788-4884-85b6-9533372ffe2e")
 	)
 	(junction
+		(at 111.76 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71f3ff5e-b7e1-489c-99ec-6d292d4c97e2")
+	)
+	(junction
 		(at 137.16 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1394,13 +1400,33 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 73.66) (xy 111.76 102.87)
+			(xy 111.76 80.01) (xy 111.76 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a266f02-3781-45e7-9441-cfdd47e4f09c")
+		(uuid "09078882-a1b3-4044-9c64-d5cb4dfa94cc")
+	)
+	(wire
+		(pts
+			(xy 111.76 80.01) (xy 111.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "161601ec-25e0-430d-a360-d3bcbcd2b557")
+	)
+	(wire
+		(pts
+			(xy 111.76 100.33) (xy 111.76 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9a8f9d-0611-48fb-bb68-1f06f3d408f5")
 	)
 	(wire
 		(pts
@@ -1421,16 +1447,6 @@
 			(type default)
 		)
 		(uuid "4d26cdf5-9152-4c88-8007-1eed9adadf60")
-	)
-	(wire
-		(pts
-			(xy 129.54 73.66) (xy 111.76 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fdff1be-ce67-4275-bc5f-c62cc91a3324")
 	)
 	(wire
 		(pts
@@ -1524,6 +1540,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 80.01) (xy 111.76 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9acb37d0-f0ce-45e0-a05a-af8a86a5a1a2")
+	)
+	(wire
+		(pts
 			(xy 144.78 82.55) (xy 139.7 82.55)
 		)
 		(stroke
@@ -1581,6 +1607,16 @@
 			(type default)
 		)
 		(uuid "b00a625b-739e-4a3d-9e11-c4742b8916cd")
+	)
+	(wire
+		(pts
+			(xy 111.76 73.66) (xy 129.54 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b469319f-a1d5-419b-be02-583071520380")
 	)
 	(wire
 		(pts
@@ -1726,6 +1762,247 @@
 			(project "male"
 				(path "/e5086e09-eaef-4974-977c-0e200593cf81"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD131-B1-W0201")
+		(at 95.25 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b3b5a41-244b-486f-a8b7-7d07b7c74d20")
+		(property "Reference" "D4"
+			(at 90.932 84.328 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD150-B1-W0201"
+			(at 85.852 85.598 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+			(at 95.25 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
+			(at 95.25 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
+			(at 95.25 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c307fa92-f1e0-4806-9a76-6e029f9fa58e")
+		)
+		(pin "1"
+			(uuid "77781847-7c59-4331-bc1d-7ba391d0aeb0")
+		)
+		(instances
+			(project "male"
+				(path "/e5086e09-eaef-4974-977c-0e200593cf81"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 96.52 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "383a2fc7-cb54-467b-a929-4e273224bf3f")
+		(property "Reference" "R2"
+			(at 109.22 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "7.5"
+			(at 109.22 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.982 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5bd613ff-5a47-4e80-940d-336f3b95f425")
+		)
+		(pin "1"
+			(uuid "8c4966e2-53b6-41ee-9549-415985ce7ac3")
+		)
+		(instances
+			(project "male"
+				(path "/e5086e09-eaef-4974-977c-0e200593cf81"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ea0999c-032f-4636-8518-473871a2b1bf")
+		(property "Reference" "#PWR05"
+			(at 95.25 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a785ec65-c801-4353-9bb0-da9870941332")
+		)
+		(instances
+			(project "male"
+				(path "/e5086e09-eaef-4974-977c-0e200593cf81"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2147,7 +2424,7 @@
 		(dnp no)
 		(uuid "cffa4523-a8fe-4baa-b69b-0be05edfd051")
 		(property "Reference" "D1"
-			(at 114.3 85.0899 90)
+			(at 129.286 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2158,7 +2435,7 @@
 			)
 		)
 		(property "Value" "VCUT0714A-HD1-GS08"
-			(at 114.3 87.6299 90)
+			(at 129.286 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2364,7 +2641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "220"
 			(at 130.302 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)

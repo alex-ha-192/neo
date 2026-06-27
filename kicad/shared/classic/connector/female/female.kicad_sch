@@ -1375,6 +1375,12 @@
 		(uuid "191f90c2-1be1-484b-a010-7274aac8277e")
 	)
 	(junction
+		(at 113.03 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ff1011a-10a1-4588-9873-3ff5ed805f9e")
+	)
+	(junction
 		(at 143.51 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1414,6 +1420,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 74.93) (xy 113.03 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "142103b4-4eb1-4553-a840-79b95dd0a36e")
+	)
+	(wire
+		(pts
 			(xy 140.97 106.68) (xy 140.97 114.3)
 		)
 		(stroke
@@ -1441,6 +1457,16 @@
 			(type default)
 		)
 		(uuid "34ff3b3f-3ad6-4576-bf08-680bcc230952")
+	)
+	(wire
+		(pts
+			(xy 113.03 107.95) (xy 113.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e81d666-9384-49a0-bf62-2d208da30ac1")
 	)
 	(wire
 		(pts
@@ -1514,6 +1540,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 74.93) (xy 113.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a057f9f5-9b39-4dc8-802a-e4ccd9df8bc2")
+	)
+	(wire
+		(pts
 			(xy 124.46 86.36) (xy 124.46 85.09)
 		)
 		(stroke
@@ -1524,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 78.74) (xy 113.03 114.3)
+			(xy 113.03 78.74) (xy 113.03 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1887,6 +1923,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 100.33 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28a4d854-fa91-4a00-8501-08a7fd817cd4")
+		(property "Reference" "#PWR05"
+			(at 100.33 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "598a803c-8653-44cd-aca5-189f29ba1000")
+		)
+		(instances
+			(project "female"
+				(path "/e39f0091-afda-47c2-ab5c-18d3e3e1df31"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "VCUT0714A-HD1-GS08:VCUT0714A-HD1-GS08")
 		(at 124.46 93.98 270)
 		(mirror x)
@@ -2000,6 +2114,87 @@
 			(project "female"
 				(path "/e39f0091-afda-47c2-ab5c-18d3e3e1df31"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD131-B1-W0201")
+		(at 100.33 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "958400a3-6e04-472d-9d94-38b36d102ad7")
+		(property "Reference" "D4"
+			(at 96.012 79.248 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD150-B1-W0201"
+			(at 90.932 80.518 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4d6fa702-fd65-4e2e-822f-5da2523d9df9")
+		)
+		(pin "1"
+			(uuid "3368f427-5133-4116-8e03-e54270c94e5a")
+		)
+		(instances
+			(project "female"
+				(path "/e39f0091-afda-47c2-ab5c-18d3e3e1df31"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2157,6 +2352,88 @@
 			(project "female"
 				(path "/e39f0091-afda-47c2-ab5c-18d3e3e1df31"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1ed39e7-1835-49c1-96a1-ca0459a59844")
+		(property "Reference" "R2"
+			(at 115.57 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "7.5"
+			(at 115.57 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.252 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9a90cd2b-62e6-470c-81a8-873cee458917")
+		)
+		(pin "1"
+			(uuid "15fb34ff-2fe1-4831-8a61-f16ad09ff167")
+		)
+		(instances
+			(project "female"
+				(path "/e39f0091-afda-47c2-ab5c-18d3e3e1df31"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2354,7 +2631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "240"
 			(at 136.652 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)

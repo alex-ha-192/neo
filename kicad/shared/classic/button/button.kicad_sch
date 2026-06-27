@@ -221,161 +221,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1522,25 +1367,13 @@
 		(at 33.02 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20fe2e26-d975-4d10-94e4-ae816b210324")
-	)
-	(junction
-		(at 41.91 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d6d7a3c-60d6-405c-b9ef-eee881c77ab2")
+		(uuid "4088a948-c565-4de1-b051-993a4a773f6f")
 	)
 	(junction
 		(at 33.02 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5287cac2-acfb-466e-923f-5a3272ca7117")
-	)
-	(junction
-		(at 41.91 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d516dd3-47df-4eeb-8777-870afd85fade")
 	)
 	(junction
 		(at 78.74 80.01)
@@ -1586,16 +1419,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 55.88) (xy 41.91 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4727c62d-41af-440a-bd42-a468a925e34f")
-	)
-	(wire
-		(pts
 			(xy 74.93 80.01) (xy 78.74 80.01)
 		)
 		(stroke
@@ -1603,6 +1426,16 @@
 			(type default)
 		)
 		(uuid "50385390-145e-453d-beaf-fb382f701fb2")
+	)
+	(wire
+		(pts
+			(xy 33.02 55.88) (xy 41.91 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544fb883-2614-4419-bbc8-f0e1833a6303")
 	)
 	(wire
 		(pts
@@ -1636,16 +1469,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 48.26) (xy 50.8 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7a65986-4540-4cf4-a72e-f753f11981a2")
-	)
-	(wire
-		(pts
 			(xy 36.83 53.34) (xy 33.02 53.34)
 		)
 		(stroke
@@ -1673,16 +1496,6 @@
 			(type default)
 		)
 		(uuid "e0e6c412-e888-42be-b35e-e33782b9a61d")
-	)
-	(wire
-		(pts
-			(xy 41.91 55.88) (xy 50.8 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6b5bc5d-88ab-4298-980f-49279f7c0e41")
 	)
 	(wire
 		(pts
@@ -1733,85 +1546,6 @@
 			(justify right bottom)
 		)
 		(uuid "c29a266c-1135-4572-af5d-a97b14e4a721")
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 41.91 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "133003ae-75fe-440a-a854-e980229d1c12")
-		(property "Reference" "#FLG01"
-			(at 41.91 46.355 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 40.64 44.704 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 41.91 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b37807e0-f6c1-469d-b08d-db53cecc0a6f")
-		)
-		(instances
-			(project "button"
-				(path "/9bcb4978-1926-4e41-8c2f-efd6bcbfb6f8"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1965,87 +1699,6 @@
 			(project "button"
 				(path "/9bcb4978-1926-4e41-8c2f-efd6bcbfb6f8"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 50.8 52.07 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "37131189-f108-4584-9013-214fff04f0ef")
-		(property "Reference" "C1"
-			(at 58.928 53.594 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 58.928 51.054 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 49.8348 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "92f748ff-7f7c-4f3e-87e0-41f492f93f1e")
-		)
-		(pin "1"
-			(uuid "ef847750-0338-465d-b5e3-ff49227420cd")
-		)
-		(instances
-			(project "button"
-				(path "/9bcb4978-1926-4e41-8c2f-efd6bcbfb6f8"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2462,6 +2115,85 @@
 			(project "button"
 				(path "/9bcb4978-1926-4e41-8c2f-efd6bcbfb6f8"
 					(reference "MX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 41.91 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88e334ea-9b94-4173-80bd-46654ec185f9")
+		(property "Reference" "#FLG03"
+			(at 41.91 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 41.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 41.91 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f963404b-eebb-4232-9dbe-1929b328aa41")
+		)
+		(instances
+			(project "button"
+				(path "/9bcb4978-1926-4e41-8c2f-efd6bcbfb6f8"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
