@@ -43,7 +43,7 @@ The Neo buzzer system is an open-source, hopefully reliable, and hopefully affor
 
 ### PCBs (completed/routing)
 - [ ] Main buzzer board - Classic
-- [ ] Main control board - Classic
+- [x] Main control board - Classic
 - [ ] LED board - Classic
 - [ ] Button/LED assembly - Classic
 - [ ] Male connector assembly - Classic
