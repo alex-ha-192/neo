@@ -1816,7 +1816,7 @@
 		(uuid "23ca9e2a-4be7-4c9f-8844-9519ff4a93d8")
 	)
 	(label "SW_IN"
-		(at 189.23 24.13 90)
+		(at 194.31 24.13 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2056,7 +2056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
 			(at 160.02 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -2214,7 +2214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 110.7948 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2373,7 +2373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
 			(at 160.02 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -2449,7 +2449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
 			(at 160.02 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -2496,7 +2496,8 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 194.31 24.13 0)
+		(at 189.23 24.13 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2506,7 +2507,7 @@
 		(dnp no)
 		(uuid "51274726-9b98-44ef-9ce4-6460444fa3b4")
 		(property "Reference" "#PWR08"
-			(at 194.31 27.94 0)
+			(at 189.23 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2517,7 +2518,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 197.104 24.384 0)
+			(at 186.436 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2527,7 +2528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 24.13 0)
+			(at 189.23 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2538,7 +2539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 24.13 0)
+			(at 189.23 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2549,7 +2550,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 194.31 24.13 0)
+			(at 189.23 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2706,7 +2707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
 			(at 90.17 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2783,7 +2784,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 55.88 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -2872,7 +2873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 27.94 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -2931,8 +2932,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 189.23 29.21 90)
-		(mirror x)
+		(at 194.31 29.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2942,7 +2942,7 @@
 		(dnp no)
 		(uuid "922716ed-b5b2-4330-b644-dd36d116b4f1")
 		(property "Reference" "J3"
-			(at 190.5 33.02 90)
+			(at 193.04 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2952,7 +2952,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 190.5 35.56 90)
+			(at 193.04 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2961,8 +2961,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.23 29.21 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2973,7 +2973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 29.21 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2984,7 +2984,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 29.21 0)
+			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3049,7 +3049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
 			(at 90.17 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -3126,7 +3126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 152.4 85.598 90)
 			(hide yes)
 			(show_name no)
@@ -3489,7 +3489,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 24.13 270)
+		(at 196.85 24.13 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3500,7 +3501,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd444085-6ccf-4dee-ba81-d3ac30f3a25c")
 		(property "Reference" "#PWR07"
-			(at 180.34 24.13 0)
+			(at 203.2 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3511,7 +3512,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 24.1299 90)
+			(at 200.66 24.1299 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3523,7 +3524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 24.13 0)
+			(at 196.85 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3534,7 +3535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 24.13 0)
+			(at 196.85 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3545,7 +3546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 24.13 0)
+			(at 196.85 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3601,7 +3602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
 			(at 90.17 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3757,7 +3758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
 			(at 90.17 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -3875,6 +3876,85 @@
 			(project "main"
 				(path "/ae6fdbf4-9609-4b62-900c-268cd8756307"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 142.24 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffb478fa-d6a3-4495-915e-a81e9637c8ba")
+		(property "Reference" "#FLG02"
+			(at 144.145 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 146.05 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 142.24 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9d66ad6-5e90-4614-8605-2ffb9eed8f80")
+		)
+		(instances
+			(project "main"
+				(path "/ae6fdbf4-9609-4b62-900c-268cd8756307"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
