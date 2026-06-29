@@ -1782,6 +1782,12 @@
 		(uuid "5e53c703-6b06-4e94-858d-c4bbca452871")
 	)
 	(junction
+		(at 35.56 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b999308-9260-4416-92b7-718ab3ae4f46")
+	)
+	(junction
 		(at 255.27 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1816,6 +1822,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e956e065-54ba-4562-a5ec-a511b837e1fb")
+	)
+	(junction
+		(at 45.72 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9ffc87c-388f-4879-981c-fb2eb4b96cdc")
 	)
 	(no_connect
 		(at 74.93 115.57)
@@ -1880,6 +1892,16 @@
 			(type default)
 		)
 		(uuid "1b00871d-cba4-4d2a-9727-6f72e89181ce")
+	)
+	(wire
+		(pts
+			(xy 35.56 83.82) (xy 35.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3bc60c-312a-40ea-b1fa-8c8128ae7f6f")
 	)
 	(wire
 		(pts
@@ -2013,6 +2035,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 81.28) (xy 35.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86020ea0-9d0b-4fb8-b66a-e8ee61ee4a5e")
+	)
+	(wire
+		(pts
 			(xy 48.26 120.65) (xy 54.61 120.65)
 		)
 		(stroke
@@ -2143,6 +2175,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 83.82) (xy 45.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd919611-f8a7-4930-8dc6-eeb75d37b09c")
+	)
+	(wire
+		(pts
 			(xy 54.61 120.65) (xy 64.77 120.65)
 		)
 		(stroke
@@ -2170,6 +2212,16 @@
 			(type default)
 		)
 		(uuid "d2e0a8b5-e751-48a3-ba18-be0939a35430")
+	)
+	(wire
+		(pts
+			(xy 45.72 81.28) (xy 45.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5de45e8-c1eb-44d2-bf6d-c18517c786b8")
 	)
 	(wire
 		(pts
@@ -2551,7 +2603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 142.24 126.238 90)
 			(hide yes)
 			(show_name no)
@@ -2787,7 +2839,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 198.12 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -2947,7 +2999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 146.812 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -3452,7 +3504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 160.02 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3545,7 +3597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 202.692 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -3738,7 +3790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 266.7 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4363,7 +4415,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 45.72 80.01 270)
+		(at 45.72 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4374,7 +4426,7 @@
 		(fields_autoplaced yes)
 		(uuid "571620a8-dc5d-44d0-9e42-04e484acc966")
 		(property "Reference" "#FLG05"
-			(at 47.625 80.01 0)
+			(at 47.625 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +4437,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 50.8 80.01 0)
+			(at 50.8 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4396,7 +4448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 80.01 0)
+			(at 45.72 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4407,7 +4459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 80.01 0)
+			(at 45.72 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4418,7 +4470,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 45.72 80.01 0)
+			(at 45.72 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4631,7 +4683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 215.9 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4725,7 +4777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 160.02 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -4818,7 +4870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 214.122 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -4900,7 +4952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 158.242 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -4982,7 +5034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 202.692 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -5065,7 +5117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 215.9 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5268,7 +5320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 214.122 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -5348,7 +5400,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 248.92 126.238 90)
 			(hide yes)
 			(show_name no)
@@ -5398,7 +5450,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 35.56 80.01 90)
+		(at 35.56 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5409,7 +5461,7 @@
 		(fields_autoplaced yes)
 		(uuid "77d29b99-f33d-4d40-b31d-44a2bf0cf26e")
 		(property "Reference" "#FLG06"
-			(at 33.655 80.01 0)
+			(at 33.655 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5420,7 +5472,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 30.48 80.01 0)
+			(at 30.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5431,7 +5483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 80.01 0)
+			(at 35.56 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5442,7 +5494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 80.01 0)
+			(at 35.56 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5453,7 +5505,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 35.56 80.01 0)
+			(at 35.56 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5509,7 +5561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 146.812 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -5591,7 +5643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 202.692 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -5673,7 +5725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 158.242 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -5834,7 +5886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 160.02 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6005,7 +6057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 146.812 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -6087,7 +6139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 158.242 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -6167,7 +6219,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 142.24 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -6327,7 +6379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 146.812 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -6409,7 +6461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 264.922 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -6569,7 +6621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 214.122 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -6649,7 +6701,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 142.24 168.148 90)
 			(hide yes)
 			(show_name no)
@@ -6729,7 +6781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 198.12 126.238 90)
 			(hide yes)
 			(show_name no)
@@ -6919,7 +6971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 198.12 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -7080,7 +7132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 160.02 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7173,7 +7225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 158.242 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -7254,7 +7306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 49.2252 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7337,7 +7389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 215.9 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7476,7 +7528,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 78.74 0)
+		(at 35.56 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7487,7 +7539,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfca41d5-1ed5-4533-8985-d37cd2cd0073")
 		(property "Reference" "#PWR028"
-			(at 35.56 85.09 0)
+			(at 35.56 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7498,7 +7550,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 83.82 0)
+			(at 35.56 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7508,7 +7560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 78.74 0)
+			(at 35.56 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7519,7 +7571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 78.74 0)
+			(at 35.56 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7530,7 +7582,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 78.74 0)
+			(at 35.56 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7662,7 +7714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 40.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7877,7 +7929,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 45.72 78.74 180)
+		(at 45.72 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7888,7 +7940,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4f969fa-8f01-4a74-8b16-a72e83bbfdb3")
 		(property "Reference" "#PWR027"
-			(at 45.72 74.93 0)
+			(at 45.72 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7899,7 +7951,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 45.72 83.82 0)
+			(at 45.72 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7909,7 +7961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 78.74 0)
+			(at 45.72 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7920,7 +7972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 78.74 0)
+			(at 45.72 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7931,7 +7983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 45.72 78.74 0)
+			(at 45.72 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8065,7 +8117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 64.77 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8265,7 +8317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 142.24 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -8613,7 +8665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 253.492 128.27 90)
 			(hide yes)
 			(show_name no)

@@ -6,7 +6,7 @@ The Neo buzzer system is an open-source, hopefully reliable, and hopefully affor
 - [x] Finalise design concepts
 - [ ] Prototype
 - [x] Source parts
-- [ ] PCB design
+- [x] PCB design
 - [ ] 3D printed case design
 - [ ] Order and initial testing
 - [ ] Real-world testing
@@ -44,7 +44,7 @@ The Neo buzzer system is an open-source, hopefully reliable, and hopefully affor
 ### PCBs (completed/routing)
 - [x] Main buzzer board - Classic
 - [x] Main control board - Classic
-- [ ] LED board - Classic
+- [x] LED board - Classic
 - [x] Button/LED assembly - Classic
 - [ ] Male connector assembly - Classic
 - [ ] Female connector assembly - Classic
