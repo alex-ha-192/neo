@@ -7,7 +7,6 @@ The initial planning is for one set of buzzers intended to have user-facing back
 ## Progress
 ### Classic v1
 - [x] Finalise design concepts
-- [ ] Prototype
 - [x] Source parts
 - [ ] PCB design
 - [ ] 3D printed case design
