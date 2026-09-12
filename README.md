@@ -5,43 +5,19 @@ The Neo buzzer system is an open-source, hopefully reliable, and hopefully affor
 The initial planning is for one set of buzzers intended to have user-facing backwards compatibility with a popular set of commercial buzzers. A cheaper option may follow depending on how that goes.
 
 ## Progress
+
 ### Classic v1
+
 - [x] Finalise design concepts
 - [x] Source parts
 - [ ] PCB design
-- [ ] 3D printed case design
 - [ ] Order and initial testing
+- [ ] 3D printed case design
 - [ ] Real-world testing
 - [ ] Release
 
-### Footprints
-- [x] XLR5 Male
-- [x] XLR5 Female
-- [x] HW-0519
-
-### PCBs (started/schematics)
-- [x] Main buzzer board - Classic
-- [x] Main control board - Classic
-- [x] LED board - Classic
-- [x] Button/LED assembly - Classic
-- [x] Male connector assembly - Classic
-- [x] Female connector assembly - Classic
-
-### PCBs (completed/routing)
-- [ ] Main buzzer board - Classic
-- [ ] Main control board - Classic
-- [ ] LED board - Classic
-- [ ] Button/LED assembly - Classic
-- [ ] Male connector assembly - Classic
-- [ ] Female connector assembly - Classic
-
-### CAD models
-- [ ] Buzzer box - Classic
-- [ ] Control unit - Classic
-- [ ] Male connector assembly - Classic
-- [ ] Female connector assembly - Classic
-
 ## Pricing
+
 I'm trying to be cost-conscious while designing these buzzers, but I'm not planning on imminently selling any or distributing them beyond Imperial until they're both finished and well-tested. If you need a buzzer set now, I'll point you to buying a [Kitsune system](https://github.com/Amekyras/kitsune) from [Aisling Skeet](https://github.com/Amekyras); they're a solid set of buzzers and they've been tested at quite a few competitive events. If you want a pricing estimate, it's probably whatever I say it is at the moment plus a bit on top because this keeps getting more expensive with every revision.
 
 Just a quick note as well, this is an open-source project and, as a result, you can do whatever you'd like as per the [licence](LICENCE), but if you want to make your own buzzers, please don't sell them? Obviously I neither can nor will try and stop you, but these haven't been particularly cheap to work on, even though as I write this I haven't shipped out any PCBs yet - parts are expensive! I'd love it if anyone who wants to improve them does that though, either on this repository or on your own fork.
@@ -49,6 +25,7 @@ Just a quick note as well, this is an open-source project and, as a result, you 
 ## Features (planned, WIP)
 
 ### Classic v1.0
+
 - Daisy-chain as many buzzers per side as you could ever reasonably want
 - USB-C connection with data for potential [BuzzIn.live](https://buzzin.live) support or generic input
 - Low/fair latency
